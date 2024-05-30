@@ -1,0 +1,22 @@
+.error--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: max-content;
+
+  background-color: #f1926e;
+  border-radius: 3px;
+  color: white;
+
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+}
+
+.error--text {
+  float: left;
+
+  width: fit-content;
+  max-width: 90%;
+  height: auto;
+}
